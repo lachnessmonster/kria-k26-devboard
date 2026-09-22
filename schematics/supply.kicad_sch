@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "56891774-890b-4db2-a340-37e2c05f971c")
+	(paper "A3")
+	(title_block
+		(title "Kria K26 Devboard")
+		(date "2024-03-26")
+		(rev "1.2.5")
+		(comment 1 "www.antmicro.com")
+		(comment 2 "Antmicro Ltd.")
+	)
+	(lib_symbols)
+)
