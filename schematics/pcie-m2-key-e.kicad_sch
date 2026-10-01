@@ -1445,7 +1445,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1458,7 +1458,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1555,6 +1555,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "C_100n_0402_0_1"
@@ -1673,7 +1684,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1686,7 +1697,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1785,6 +1796,17 @@
 					(justify left bottom)
 				)
 			)
+			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "C_10u_0603_0_1"
 				(polyline
 					(pts
@@ -1868,6 +1890,7 @@
 				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1880,7 +1903,6 @@
 				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1958,7 +1980,7 @@
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2049,7 +2071,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "0R resistor in 0402 package with unspecified tolerance"
+			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2147,6 +2169,17 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "R_0R_0402_0_1"
@@ -2265,7 +2298,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "10k resistor in 0402 package with 1% tolerance"
+			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2352,6 +2385,17 @@
 					(justify left bottom)
 				)
 			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "R_10k_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
@@ -2423,7 +2467,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_H1.5mm_9774015243R"
+			(property "Value" "Spacer_Drill3mm_H1.5mm_9774015243R"
 				(at 22.86 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2461,7 +2505,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 1.5 mm, M2 Thread, WA-SMSI Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2524,6 +2568,17 @@
 					(justify left bottom)
 				)
 			)
+			(property "ki_keywords" "MECHANICAL, SPACER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "Spacer_Drill3mm_H1.5mm_9774015243R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
@@ -2569,19 +2624,16 @@
 			(embedded_fonts no)
 		)
 		(symbol "kria-k26-devboard:TP_0.75mm_SMD"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
-				(at 17.78 -5.08 0)
+				(at 10.795 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2593,9 +2645,10 @@
 				)
 			)
 			(property "Value" "TP_0.75mm_SMD"
-				(at 17.78 -7.62 0)
+				(at 10.795 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2605,7 +2658,7 @@
 				)
 			)
 			(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-				(at 17.78 -10.16 0)
+				(at 10.795 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2630,7 +2683,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Test Point 0.75mm"
+			(property "Description" "SMT test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2642,7 +2695,7 @@
 				)
 			)
 			(property "MPN" ""
-				(at 17.78 -15.24 0)
+				(at 10.795 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2655,7 +2708,7 @@
 				)
 			)
 			(property "Manufacturer" ""
-				(at 17.78 -17.78 0)
+				(at 10.795 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2668,7 +2721,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 17.78 -20.32 0)
+				(at 10.795 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2681,7 +2734,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 17.78 -22.86 0)
+				(at 10.795 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2691,6 +2744,17 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "TP_0.75mm_SMD_1_1"
@@ -2776,18 +2840,6 @@
 		(uuid "8931116d-e79f-4791-9802-06b5abe5e1de")
 	)
 	(junction
-		(at 246.38 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a785802-e034-4203-a7f8-a5b3dd68084a")
-	)
-	(junction
-		(at 233.68 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dce7c3e-0c05-4b7a-b627-b68622005068")
-	)
-	(junction
 		(at 245.745 123.825)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f579c6-01b4-4cec-a42a-413bcbe00d86")
+	)
+	(junction
+		(at 226.06 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0879c0-d4db-496a-ba48-c8ae68410010")
 	)
 	(no_connect
 		(at 215.9 153.67)
@@ -2981,16 +3039,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 160.02) (xy 250.19 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ca07bb-0afd-4787-980c-004111113e77")
-	)
-	(wire
-		(pts
 			(xy 254 123.825) (xy 262.255 123.825)
 		)
 		(stroke
@@ -3011,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 150.495) (xy 233.68 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa925d5-df74-424a-85c5-0dfaff9b694e")
-	)
-	(wire
-		(pts
 			(xy 144.145 146.05) (xy 181.61 146.05)
 		)
 		(stroke
@@ -3038,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "1be9b446-d286-49eb-b69c-7a88e6681bc0")
+	)
+	(wire
+		(pts
+			(xy 226.06 160.02) (xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d6cc55-9114-4e05-9000-4d01909e3ade")
 	)
 	(wire
 		(pts
@@ -3081,17 +3129,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 160.02) (xy 246.38 160.02)
+			(xy 215.9 160.02) (xy 226.06 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a1a9e9e-832e-4012-b161-a6bbcca4c297")
+		(uuid "51986c28-83f0-4d42-a4aa-251c3ddf5d7a")
 	)
 	(wire
 		(pts
-			(xy 246.38 158.75) (xy 246.38 160.02)
+			(xy 226.06 158.75) (xy 226.06 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3118,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "6eb8afad-e33f-4399-a8d3-b9d22281f23c")
-	)
-	(wire
-		(pts
-			(xy 233.68 160.02) (xy 233.68 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ac86c0-4cab-441c-964d-b040936d64d0")
 	)
 	(wire
 		(pts
@@ -3311,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 160.02) (xy 233.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30d9fd2-8c5c-4d16-98e1-f254ead9ce36")
-	)
-	(wire
-		(pts
 			(xy 170.815 176.53) (xy 181.61 176.53)
 		)
 		(stroke
@@ -3411,16 +3439,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.775 150.495) (xy 233.68 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e32c6b-5683-46c6-8e91-392882402247")
-	)
-	(wire
-		(pts
 			(xy 146.685 139.7) (xy 144.145 139.7)
 		)
 		(stroke
@@ -3479,7 +3497,7 @@
 		)
 		(uuid "fe239494-b553-4d03-8786-a81ab7083461")
 	)
-	(label "GTR_DP3_M2C_C_P"
+	(label "GTR_DP0_M2C_C_P"
 		(at 161.925 139.7 0)
 		(effects
 			(font
@@ -3489,7 +3507,7 @@
 		)
 		(uuid "5085a54b-6dd4-4ff3-ad93-a131405fc3cd")
 	)
-	(label "GTR_DP3_M2C_C_N"
+	(label "GTR_DP0_M2C_C_N"
 		(at 161.925 142.24 0)
 		(effects
 			(font
@@ -3520,29 +3538,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PS_3V3"
-		(shape input)
-		(at 231.775 150.495 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55a37c6c-4ca3-43a1-9e37-bb321662b6cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.145 330.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -3593,7 +3588,7 @@
 			)
 		)
 	)
-	(hierarchical_label "GTR_DP3_M2C_P"
+	(hierarchical_label "GTR_DP0_M2C_P"
 		(shape input)
 		(at 144.145 139.7 180)
 		(effects
@@ -3604,7 +3599,7 @@
 		)
 		(uuid "045ea68f-a1aa-45a0-94b4-32d518550a1d")
 	)
-	(hierarchical_label "GTR_DP3_M2C_N"
+	(hierarchical_label "GTR_DP0_M2C_N"
 		(shape input)
 		(at 144.145 142.24 180)
 		(effects
@@ -3615,7 +3610,7 @@
 		)
 		(uuid "126cf08e-b11d-427c-a6ce-6fb979af6e11")
 	)
-	(hierarchical_label "GTR_DP3_C2M_N"
+	(hierarchical_label "GTR_DP0_C2M_N"
 		(shape input)
 		(at 144.145 148.59 180)
 		(effects
@@ -3628,7 +3623,7 @@
 	)
 	(hierarchical_label "~{M2_PERST}"
 		(shape input)
-		(at 250.19 160.02 0)
+		(at 236.22 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,7 +3632,7 @@
 		)
 		(uuid "49b83528-0b7d-4f67-8a19-c5a8070c61c4")
 	)
-	(hierarchical_label "GTR_REFCLK3_N"
+	(hierarchical_label "GTR_REFCLK0_N"
 		(shape input)
 		(at 144.145 153.67 180)
 		(effects
@@ -3648,7 +3643,7 @@
 		)
 		(uuid "4be52b88-7cbf-42fa-ac37-8d4630b31d6f")
 	)
-	(hierarchical_label "GTR_REFCLK3_P"
+	(hierarchical_label "GTR_REFCLK0_P"
 		(shape input)
 		(at 144.145 151.13 180)
 		(effects
@@ -3659,7 +3654,7 @@
 		)
 		(uuid "7398df83-2064-4460-ae47-def86a3dc8b7")
 	)
-	(hierarchical_label "GTR_DP3_C2M_P"
+	(hierarchical_label "GTR_DP0_C2M_P"
 		(shape input)
 		(at 144.145 146.05 180)
 		(effects
@@ -3693,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006256a4fd")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0196"
 			(at 191.135 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -3705,13 +3700,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.135 227.33 0)
+			(at 193.04 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3742,6 +3738,7 @@
 		)
 		(property "Description" ""
 			(at 191.135 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3782,7 +3779,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0232")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3798,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062573850")
 		(property "Reference" "SP5"
-			(at 202.565 219.71 0)
+			(at 203.2 220.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,8 +3847,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 1.5 mm, M2 Thread, WA-SMSI Series"
 			(at 193.675 220.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3874,7 +3872,8 @@
 			)
 		)
 		(property "MPN" "9774015243R"
-			(at 202.565 222.8849 0)
+			(at 216.535 236.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3882,7 +3881,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -3925,17 +3924,17 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:TP_0.75mm_SMD")
-		(at 246.38 158.75 90)
+		(at 226.06 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006293e44e")
-		(property "Reference" "TP45"
-			(at 244.475 153.67 90)
+		(property "Reference" "TP23"
+			(at 224.155 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +3945,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 254 140.97 0)
+			(at 233.68 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 256.54 140.97 0)
+			(at 232.41 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 140.97 0)
+			(at 238.76 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,8 +3983,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 158.75 0)
+		(property "Description" "SMT test point"
+			(at 226.06 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3995,7 +3995,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 261.62 140.97 0)
+			(at 237.49 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4008,7 +4008,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 264.16 140.97 0)
+			(at 232.41 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4021,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 266.7 140.97 0)
+			(at 234.95 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 269.24 140.97 0)
+			(at 237.49 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +4052,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "TP45")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -4064,12 +4064,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000629413a9")
-		(property "Reference" "TP44"
+		(property "Reference" "TP22"
 			(at 156.21 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4094,7 +4094,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 143.51 195.58 0)
+			(at 147.32 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,8 +4119,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 153.67 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4131,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 138.43 195.58 0)
+			(at 142.24 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4144,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 135.89 195.58 0)
+			(at 147.32 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4157,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 133.35 195.58 0)
+			(at 144.78 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4170,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 130.81 195.58 0)
+			(at 142.24 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4188,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "TP44")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -4200,12 +4201,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062941c7a")
-		(property "Reference" "TP43"
+		(property "Reference" "TP21"
 			(at 146.05 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4230,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 133.35 154.94 0)
+			(at 137.16 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,8 +4256,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 143.51 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4266,7 +4268,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 128.27 154.94 0)
+			(at 132.08 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4281,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 125.73 154.94 0)
+			(at 137.16 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4294,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 123.19 154.94 0)
+			(at 134.62 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4307,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 120.65 154.94 0)
+			(at 132.08 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4325,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "TP43")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062b77b59")
-		(property "Reference" "R112"
+		(property "Reference" "R76"
 			(at 135.89 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,8 +4392,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 133.35 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,7 +4500,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "R112")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065600ffc")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0195"
 			(at 179.07 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -4527,13 +4530,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 193.04 0)
+			(at 181.61 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4564,6 +4568,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 187.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4604,7 +4609,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0231")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065611557")
-		(property "Reference" "C140"
+		(property "Reference" "C105"
 			(at 150.495 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 172.085 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4670,8 +4675,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 151.765 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4707,7 +4713,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 157.48 137.16 0)
+			(at 172.085 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,6 +4721,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -4776,7 +4783,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C140")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000656118cd")
-		(property "Reference" "C141"
+		(property "Reference" "C106"
 			(at 147.32 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +4838,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 172.085 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4844,8 +4851,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 151.765 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4881,7 +4889,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 154.94 142.24 0)
+			(at 172.085 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4889,7 +4897,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -4951,7 +4959,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C141")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065686406")
-		(property "Reference" "C142"
+		(property "Reference" "C107"
 			(at 246.38 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +5014,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
 			(at 260.985 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -5019,8 +5027,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
 			(at 245.745 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5056,7 +5065,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 246.38 130.81 90)
+			(at 253.365 146.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5064,7 +5073,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -5105,6 +5114,18 @@
 				(justify left bottom)
 			)
 		)
+		(property "Dielectric" "template_dielectric"
+			(at 276.225 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "04257b82-d9a2-4173-b04f-c908822d4ba8")
 		)
@@ -5114,7 +5135,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C142")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -5132,8 +5153,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006569db94")
-		(property "Reference" "R114"
-			(at 173.355 167.64 90)
+		(property "Reference" "R78"
+			(at 172.72 167.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5182,8 +5203,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 170.815 166.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5219,7 +5241,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 173.355 170.8149 90)
+			(at 172.72 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5277,7 +5299,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "R114")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -5296,15 +5318,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006569f2e0")
-		(property "Reference" "R113"
-			(at 161.29 167.64 90)
+		(property "Reference" "R77"
+			(at 166.37 167.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -5346,8 +5368,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 163.83 166.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5383,7 +5406,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 161.29 170.8149 90)
+			(at 166.37 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5391,7 +5414,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -5441,169 +5464,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "R113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kria-k26-devboard:R_10k_0402")
-		(at 233.68 152.4 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000656a5e34")
-		(property "Reference" "R115"
-			(at 235.585 153.6701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 220.98 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 218.44 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 210.82 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 213.36 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "10k"
-			(at 235.585 156.845 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 208.28 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 205.74 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 223.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "6eb2283b-542a-4ac9-aab0-044fb3c51ec3")
-		)
-		(pin "2"
-			(uuid "98bcaf6d-2a71-4bc3-8618-4e131e895868")
-		)
-		(instances
-			(project "kria-k26-devboard"
-				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "R115")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000656cb469")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0198"
 			(at 254 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -5634,13 +5495,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 136.525 0)
+			(at 256.54 132.7149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5671,6 +5533,7 @@
 		)
 		(property "Description" ""
 			(at 254 131.445 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5711,7 +5574,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0234")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -5729,7 +5592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000656d8ec8")
-		(property "Reference" "C143"
+		(property "Reference" "C108"
 			(at 254.635 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +5629,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 269.24 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -5779,8 +5642,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 254 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5816,7 +5680,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 254.635 130.81 90)
+			(at 261.62 146.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5824,7 +5688,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -5886,7 +5750,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C143")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -5904,8 +5768,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000656dbdbc")
-		(property "Reference" "C145"
-			(at 273.685 127.6413 90)
+		(property "Reference" "C110"
+			(at 273.05 127.6412 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5941,7 +5805,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
 			(at 255.27 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -5954,8 +5818,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
 			(at 270.51 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5991,7 +5856,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 273.685 130.8162 90)
+			(at 273.05 130.1813 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6040,6 +5905,18 @@
 				(justify left bottom)
 			)
 		)
+		(property "Dielectric" "template_dielectric"
+			(at 240.03 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "b56a412c-bdc0-40b6-bc4d-2f58ec9119f2")
 		)
@@ -6049,7 +5926,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C145")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -6066,7 +5943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000656dbdde")
-		(property "Reference" "C144"
+		(property "Reference" "C109"
 			(at 262.89 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +5980,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 247.015 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -6116,8 +5993,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 262.255 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6153,7 +6031,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 262.89 130.81 90)
+			(at 254.635 146.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6161,7 +6039,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -6223,7 +6101,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "C144")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -6241,8 +6119,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9207b16c-82c8-4a49-a131-a90c65ad6ee4")
-		(property "Reference" "J10"
-			(at 198.755 97.79 0)
+		(property "Reference" "J8"
+			(at 198.755 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6251,7 +6129,7 @@
 				)
 			)
 		)
-		(property "Value" "Bus_M.2_2199119-6"
+		(property "Value" "Bus_M.2_MDT320E03001"
 			(at 229.87 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6290,8 +6168,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Key E, PCI connector"
 			(at 181.61 105.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6301,7 +6180,8 @@
 			)
 		)
 		(property "MPN" "2199119-6"
-			(at 198.755 100.33 0)
+			(at 229.87 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6309,6 +6189,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
@@ -6557,7 +6438,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6576,7 +6457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b423d6-2b31-4d7a-909a-a1919d944490")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0200"
 			(at 270.51 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -6588,13 +6469,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 136.525 0)
+			(at 273.05 132.7149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6625,6 +6507,7 @@
 		)
 		(property "Description" ""
 			(at 270.51 131.445 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6665,7 +6548,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0236")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -6684,7 +6567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0b4909-4f72-4c55-b2f1-c7bd1886dca1")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0199"
 			(at 262.255 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -6696,13 +6579,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.255 136.525 0)
+			(at 264.16 132.7149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6733,6 +6617,7 @@
 		)
 		(property "Description" ""
 			(at 262.255 131.445 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6773,7 +6658,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0235")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -6792,7 +6677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3cdd29f-ac62-40bd-b035-437021ffcad2")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0197"
 			(at 245.745 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -6804,13 +6689,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.745 136.525 0)
+			(at 247.65 132.7149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6841,6 +6727,7 @@
 		)
 		(property "Description" ""
 			(at 245.745 131.445 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6881,7 +6768,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000062c5a15f"
-					(reference "#PWR0233")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)

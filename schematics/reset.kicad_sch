@@ -74,7 +74,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Small Signal Fast Switching Diode"
+			(property "Description" "Small Signal Diode, Single, 100 V, 150 mA, 1.2 V, 4 ns, 350 mA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -135,6 +135,17 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "SMT, RECTIFIER, SEMICONDUCTOR, DIODE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "1N4148WS_1_1"
@@ -1353,7 +1364,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1366,7 +1377,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1463,6 +1474,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "C_100n_0402_0_1"
@@ -1581,7 +1603,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H474KE11%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1594,7 +1616,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 47000 pF, 16 V, 0402 [1005 Metric], ± 10%, X5R, MC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1605,7 +1627,7 @@
 					)
 				)
 			)
-			(property "MPN" "MC0402X473K160CT"
+			(property "MPN" "GRM155R61H474KE11D"
 				(at 20.32 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1618,7 +1640,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Multicomp"
+			(property "Manufacturer" "Murata"
 				(at 20.32 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1691,6 +1713,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "C_47n_0402_0_1"
@@ -1818,7 +1851,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Digital NPN Transistor, 10k/NONE, EMT-3"
+			(property "Description" "Bipolar Pre-Biased / Digital Transistor, Single NPN, 50 V, 100 mA, 10 kohm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1879,6 +1912,17 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, BIPOLAR, NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_fp_filters" "SOT?23* SC?59*"
@@ -2073,6 +2117,7 @@
 				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2085,7 +2130,6 @@
 				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2163,7 +2207,7 @@
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2254,7 +2298,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "100k resistor in 0402 package with 1% tolerance"
+			(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2339,6 +2383,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "R_100k_0402_0_1"
@@ -2457,7 +2512,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "10k resistor in 0402 package with 1% tolerance"
+			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2542,6 +2597,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "R_10k_0402_0_1"
@@ -2660,7 +2726,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "1k resistor in 0402 package with 1% tolerance"
+			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2745,6 +2811,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "R_1k_0402_0_1"
@@ -3702,19 +3779,16 @@
 			(embedded_fonts no)
 		)
 		(symbol "kria-k26-devboard:TP_0.75mm_SMD"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
-				(at 17.78 -5.08 0)
+				(at 10.795 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3726,9 +3800,10 @@
 				)
 			)
 			(property "Value" "TP_0.75mm_SMD"
-				(at 17.78 -7.62 0)
+				(at 10.795 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3738,7 +3813,7 @@
 				)
 			)
 			(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-				(at 17.78 -10.16 0)
+				(at 10.795 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3763,7 +3838,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Test Point 0.75mm"
+			(property "Description" "SMT test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3775,7 +3850,7 @@
 				)
 			)
 			(property "MPN" ""
-				(at 17.78 -15.24 0)
+				(at 10.795 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3788,7 +3863,7 @@
 				)
 			)
 			(property "Manufacturer" ""
-				(at 17.78 -17.78 0)
+				(at 10.795 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3801,7 +3876,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 17.78 -20.32 0)
+				(at 10.795 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3814,7 +3889,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 17.78 -22.86 0)
+				(at 10.795 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3824,6 +3899,17 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "TP_0.75mm_SMD_1_1"
@@ -4057,7 +4143,7 @@
 		(uuid "163de24b-100a-4597-91d3-e435b642d5f7")
 	)
 	(junction
-		(at 367.03 85.09)
+		(at 342.9 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d421b04-24aa-4532-a4fb-bcc773f88d59")
@@ -4069,16 +4155,16 @@
 		(uuid "242da8f9-c2c8-49e8-9d92-168be469f03a")
 	)
 	(junction
-		(at 322.58 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "370b065d-d3c8-438c-808f-d37d86cfc256")
-	)
-	(junction
 		(at 111.76 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3811b4f2-b317-4e50-b3bb-513eca4e93c4")
+	)
+	(junction
+		(at 217.17 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40222fc6-e566-4dc8-9e34-7dc9c50cb1f2")
 	)
 	(junction
 		(at 314.96 137.795)
@@ -4087,7 +4173,7 @@
 		(uuid "4830850d-c13a-41d6-afad-9e877d6cbeba")
 	)
 	(junction
-		(at 344.17 97.79)
+		(at 323.85 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a8a1bb9-ada4-4c7e-bb66-60a9b97a3c0e")
@@ -4129,10 +4215,10 @@
 		(uuid "97c5a43a-2800-44fa-8757-5131f48ee61f")
 	)
 	(junction
-		(at 322.58 46.99)
+		(at 272.415 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4db4c19-27f8-48fc-93a7-abc036ec6b80")
+		(uuid "9eb8eddb-206c-4474-a55d-c9bb8744e29c")
 	)
 	(junction
 		(at 73.66 146.05)
@@ -4141,10 +4227,34 @@
 		(uuid "a71119a5-93ed-45de-b7c7-dab7e72a6d2f")
 	)
 	(junction
+		(at 354.33 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d8072d-9ec1-458b-99f3-908477bc9bbb")
+	)
+	(junction
+		(at 354.33 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b78a9ec8-baac-4705-8fbf-3501f17ed46e")
+	)
+	(junction
 		(at 198.12 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbcffdb7-786c-43a6-b59e-3f578cc1221f")
+	)
+	(junction
+		(at 361.95 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d35c9def-64c7-49c6-b5e7-c87f8a60faf2")
+	)
+	(junction
+		(at 342.9 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e55e88a2-0e01-430d-a8b6-4f0ace4c4c6d")
 	)
 	(junction
 		(at 243.84 77.47)
@@ -4165,28 +4275,24 @@
 		(uuid "fa80fd79-c140-4e45-a3c6-e00415eefa55")
 	)
 	(no_connect
-		(at 353.695 142.875)
-		(uuid "0ee04f55-380c-40fb-9690-2ca169ed38fe")
-	)
-	(no_connect
 		(at 177.8 72.39)
 		(uuid "12326eab-0395-493f-bfe5-7ce976260431")
 	)
 	(no_connect
-		(at 381.635 142.875)
+		(at 373.38 152.4)
 		(uuid "4654da2e-61ee-48e3-a301-abb2c27ab13d")
+	)
+	(no_connect
+		(at 373.38 139.7)
+		(uuid "4ad17982-7a4d-4228-b54a-c69343b5a2c1")
 	)
 	(no_connect
 		(at 196.85 72.39)
 		(uuid "62b600ac-ba38-4e69-914c-c55dfc985fbb")
 	)
 	(no_connect
-		(at 363.855 142.875)
+		(at 373.38 127)
 		(uuid "ca217930-e52f-4546-878d-89abb3e7668b")
-	)
-	(no_connect
-		(at 371.475 142.875)
-		(uuid "fd5666ae-a76c-41e6-b3e0-1e9bc3ed56a0")
 	)
 	(wire
 		(pts
@@ -4220,6 +4326,36 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 46.99) (xy 361.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05607dfe-c264-4d64-89aa-9efde038b64d")
+	)
+	(wire
+		(pts
+			(xy 235.585 141.605) (xy 235.585 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091d08e4-a5c9-425a-af23-2c9ebcaa9c0a")
+	)
+	(wire
+		(pts
+			(xy 342.9 46.99) (xy 361.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095a2ab3-e921-4853-8171-e8d9862deb9e")
+	)
+	(wire
+		(pts
 			(xy 227.33 74.93) (xy 288.29 74.93)
 		)
 		(stroke
@@ -4240,6 +4376,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 133.35) (xy 238.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7d4a0b-56bf-4a6f-8e1e-7d5ad3d756fd")
+	)
+	(wire
+		(pts
+			(xy 373.38 127) (xy 369.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1530c02b-a93e-4b9d-ac97-62dff04c13e8")
+	)
+	(wire
+		(pts
 			(xy 198.12 67.31) (xy 198.12 69.85)
 		)
 		(stroke
@@ -4250,23 +4406,23 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 46.99) (xy 322.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc39ba6-1d57-40d9-8249-5b4420e2e071")
-	)
-	(wire
-		(pts
-			(xy 367.03 85.09) (xy 367.03 62.23)
+			(xy 342.9 85.09) (xy 342.9 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2120edf0-bfb0-46f9-88ed-988cc8a0b1fa")
+	)
+	(wire
+		(pts
+			(xy 259.08 140.97) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2278d689-9f1f-46fb-a08d-eed6e997ece3")
 	)
 	(wire
 		(pts
@@ -4360,6 +4516,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 133.35) (xy 272.415 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3619194f-2cf7-40c5-bae2-132940fa244d")
+	)
+	(wire
+		(pts
 			(xy 56.515 48.26) (xy 70.485 48.26)
 		)
 		(stroke
@@ -4380,6 +4546,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.955 141.605) (xy 276.86 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37078d86-509a-462a-822b-2932f0ed7f7b")
+	)
+	(wire
+		(pts
 			(xy 260.35 97.79) (xy 260.35 90.17)
 		)
 		(stroke
@@ -4397,6 +4573,26 @@
 			(type default)
 		)
 		(uuid "3a7d0cf1-f5db-46c5-85ea-49df38f9e4e4")
+	)
+	(wire
+		(pts
+			(xy 361.95 109.22) (xy 361.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7d6d5a-aa1e-48d0-8800-606e46073dd7")
+	)
+	(wire
+		(pts
+			(xy 373.38 152.4) (xy 369.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc019f8-02f6-45b1-a1c8-99949b066a91")
 	)
 	(wire
 		(pts
@@ -4440,7 +4636,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 46.99) (xy 344.17 57.15)
+			(xy 323.85 46.99) (xy 323.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 46.99) (xy 367.03 46.99)
+			(xy 337.82 46.99) (xy 342.9 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4490,13 +4686,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 177.8 77.47)
+			(xy 172.72 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4987048f-098f-4d78-adea-af58accc2fb5")
+	)
+	(wire
+		(pts
+			(xy 272.415 130.81) (xy 272.415 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51df49fb-d5e4-48b9-8fc1-e3a09fb130c0")
 	)
 	(wire
 		(pts
@@ -4517,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "54b38345-b22d-46a5-89e0-5bb332c2e5e1")
+	)
+	(wire
+		(pts
+			(xy 354.33 152.4) (xy 359.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567acb44-6139-4572-b737-8d544ec1477b")
 	)
 	(wire
 		(pts
@@ -4690,16 +4906,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 46.99) (xy 322.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74af96ad-381c-4cb8-b366-cb2c7a837a3c")
-	)
-	(wire
-		(pts
 			(xy 78.74 144.78) (xy 78.74 146.05)
 		)
 		(stroke
@@ -4780,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 97.79) (xy 344.17 62.23)
+			(xy 323.85 97.79) (xy 323.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4820,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 46.99) (xy 344.17 46.99)
+			(xy 318.77 46.99) (xy 323.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4857,6 +5063,16 @@
 			(type default)
 		)
 		(uuid "9bb03e33-b3ff-4141-bfaf-d13e85389a54")
+	)
+	(wire
+		(pts
+			(xy 354.33 139.7) (xy 354.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10c9a56-a5da-4749-be26-dfeb4f06bccc")
 	)
 	(wire
 		(pts
@@ -4920,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 152.4) (xy 354.33 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bb2ec5-70fb-4b67-a217-1cade8d87a47")
+	)
+	(wire
+		(pts
 			(xy 114.935 235.585) (xy 117.475 235.585)
 		)
 		(stroke
@@ -4940,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 46.99) (xy 367.03 57.15)
+			(xy 342.9 46.99) (xy 342.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5010,6 +5236,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 139.7) (xy 369.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4e4a16-dfc0-4219-8fa1-b3448bf51268")
+	)
+	(wire
+		(pts
 			(xy 243.84 50.8) (xy 270.51 50.8)
 		)
 		(stroke
@@ -5067,6 +5303,26 @@
 			(type default)
 		)
 		(uuid "b5946378-adae-423d-89e9-732aa93f3dbc")
+	)
+	(wire
+		(pts
+			(xy 272.415 133.35) (xy 283.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79b7f97-5d43-4a9d-9d73-e859ff052d0e")
+	)
+	(wire
+		(pts
+			(xy 191.77 137.16) (xy 238.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a75529-d56a-4bfd-913e-098924af000f")
 	)
 	(wire
 		(pts
@@ -5140,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 177.8 74.93)
+			(xy 172.72 74.93) (xy 177.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5180,6 +5436,16 @@
 	)
 	(wire
 		(pts
+			(xy 235.585 140.97) (xy 238.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6d407a-bd7b-40ac-b642-565fc558b10e")
+	)
+	(wire
+		(pts
 			(xy 90.805 228.6) (xy 97.79 228.6)
 		)
 		(stroke
@@ -5200,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 177.8 80.01)
+			(xy 172.72 80.01) (xy 177.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5220,6 +5486,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 139.7) (xy 359.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d378192e-00d0-4fba-ac6d-3595e442e2ed")
+	)
+	(wire
+		(pts
 			(xy 70.485 135.255) (xy 73.66 135.255)
 		)
 		(stroke
@@ -5227,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "d41ba034-b743-4b79-9f3e-6008fa32b3bd")
+	)
+	(wire
+		(pts
+			(xy 354.33 127) (xy 354.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6603221-af98-48ca-9795-1404d5dc979a")
 	)
 	(wire
 		(pts
@@ -5260,17 +5546,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 109.22) (xy 322.58 62.23)
+			(xy 217.17 134.62) (xy 217.17 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfdb5866-f7ac-4d98-829c-309581376452")
+		(uuid "e06c76c8-c6ab-4e10-902d-b7e2299da56a")
 	)
 	(wire
 		(pts
-			(xy 309.88 97.79) (xy 374.65 97.79)
+			(xy 309.88 97.79) (xy 389.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5400,6 +5686,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 146.685) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc6b230-5ed1-4179-9291-2f92ec6ba9b2")
+	)
+	(wire
+		(pts
 			(xy 44.45 232.41) (xy 48.26 232.41)
 		)
 		(stroke
@@ -5420,6 +5716,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 141.605) (xy 276.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b71de2-2502-429c-96f3-320ac93ba052")
+	)
+	(wire
+		(pts
 			(xy 114.554 44.45) (xy 104.14 44.45)
 		)
 		(stroke
@@ -5427,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "faf737b7-a4c1-4843-9b07-d1a50866f589")
+	)
+	(wire
+		(pts
+			(xy 354.33 127) (xy 359.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb502e8c-739b-43f7-8637-d105e31d6ef2")
 	)
 	(image
 		(at 346.71 215.9)
@@ -7586,6 +7902,16 @@
 			"QvXd/wCCjbq1zol52wAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "~{M2_PERST_PRE_DELAY}"
+		(at 389.89 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05fb49ec-eabd-4ca3-b87d-dc4b32bbbc95")
+	)
 	(label "PL_RST"
 		(at 106.934 228.6 180)
 		(effects
@@ -7646,6 +7972,16 @@
 		)
 		(uuid "a7044bb9-ecd8-4f2f-ad64-bf00aecfdd0e")
 	)
+	(label "~{M2_PERST_PRE_DELAY}"
+		(at 191.77 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec5afa07-a488-4a9d-a042-584116ecf544")
+	)
 	(global_label "PS_1V8"
 		(shape input)
 		(at 173.99 59.69 180)
@@ -7671,7 +8007,7 @@
 	)
 	(global_label "PS_3V3"
 		(shape input)
-		(at 312.42 46.99 180)
+		(at 318.77 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7681,7 +8017,7 @@
 		)
 		(uuid "1664a10b-9125-455a-bf31-35251472da7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 358.14 0)
+			(at 276.86 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +8030,7 @@
 	)
 	(global_label "PS_1V8"
 		(shape input)
-		(at 364.49 46.99 180)
+		(at 337.82 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7704,7 +8040,7 @@
 		)
 		(uuid "1b339016-5db2-4770-ab53-e9e5193b32a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.58 365.76 0)
+			(at 295.91 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,6 +8283,29 @@
 	)
 	(global_label "PS_3V3"
 		(shape input)
+		(at 274.955 141.605 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86244de4-c4bf-4b86-ae79-13c0bad6777f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.775 247.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PS_3V3"
+		(shape input)
 		(at 108.585 135.255 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8015,6 +8374,40 @@
 			)
 		)
 	)
+	(global_label "PS_3V3"
+		(shape input)
+		(at 236.22 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c57985fb-6954-4e05-b83f-34216f41063c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(hierarchical_label "MIO77"
+		(shape input)
+		(at 172.72 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0783ce01-14ab-4fca-a9c3-d310b519e868")
+	)
 	(hierarchical_label "HDA02"
 		(shape input)
 		(at 208.28 226.06 180)
@@ -8037,6 +8430,28 @@
 		)
 		(uuid "183e6571-d751-4740-9938-611145176098")
 	)
+	(hierarchical_label "~{M2_PERST}"
+		(shape input)
+		(at 283.21 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445d17dd-127c-4327-9751-9bd160842917")
+	)
+	(hierarchical_label "MIO26"
+		(shape input)
+		(at 172.72 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a059748-ddb4-4711-9d93-c543cc06b4d8")
+	)
 	(hierarchical_label "~{USB_PHY_RESET}"
 		(shape input)
 		(at 374.65 85.09 0)
@@ -8048,18 +8463,7 @@
 		)
 		(uuid "7e90a5a5-d918-47cf-a52a-68d0406c5165")
 	)
-	(hierarchical_label "MIO44"
-		(shape input)
-		(at 175.26 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84175ab9-a942-4263-bc5c-bcc34f1bb75b")
-	)
-	(hierarchical_label "CAM_RST"
+	(hierarchical_label "SOFTWARE_CONTROLLED_RESET"
 		(shape input)
 		(at 232.41 226.06 0)
 		(effects
@@ -8069,39 +8473,6 @@
 			(justify left)
 		)
 		(uuid "ae2bf3ec-356d-4cf1-b50f-a1023fe9500c")
-	)
-	(hierarchical_label "~{M2_PERST}"
-		(shape input)
-		(at 374.65 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae8107f0-8249-407a-8fdd-77874afc8155")
-	)
-	(hierarchical_label "MIO41"
-		(shape input)
-		(at 175.26 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c611d1b4-73df-4f11-9a46-5618bcc6b0a7")
-	)
-	(hierarchical_label "MIO38"
-		(shape input)
-		(at 175.26 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d734164b-8cc4-4f15-8e40-59a50a780d7b")
 	)
 	(hierarchical_label "~{ETH_RESET}"
 		(shape input)
@@ -8125,6 +8496,17 @@
 		)
 		(uuid "ff269748-0056-4622-91c3-7ffda43e571f")
 	)
+	(hierarchical_label "MIO76"
+		(shape input)
+		(at 172.72 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffde8c7e-c2d7-4bb3-8f7e-81a2a90f878b")
+	)
 	(symbol
 		(lib_id "kria-k26-devboard:74LCX07_QFN")
 		(at 299.72 97.79 0)
@@ -8136,7 +8518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006259bc1c")
-		(property "Reference" "U21"
+		(property "Reference" "U18"
 			(at 304.546 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8159,7 +8541,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
-			(at 302.26 106.68 0)
+			(at 325.12 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8172,7 +8554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/74LCX07_D-2309542.pdf"
-			(at 299.72 97.79 0)
+			(at 325.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8184,8 +8566,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
 			(at 299.72 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8195,7 +8578,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 290.83 101.6 0)
+			(at 325.12 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +8591,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 304.8 92.71 0)
+			(at 325.12 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8677,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -8311,7 +8694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000625a206c")
-		(property "Reference" "U21"
+		(property "Reference" "U18"
 			(at 304.546 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +8717,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
-			(at 302.26 93.98 0)
+			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/74LCX07_D-2309542.pdf"
-			(at 299.72 85.09 0)
+			(at 325.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,8 +8742,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
 			(at 299.72 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8370,7 +8754,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 290.83 88.9 0)
+			(at 325.12 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8383,7 +8767,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 304.8 80.01 0)
+			(at 325.12 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8853,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 4)
 				)
 			)
@@ -8477,7 +8861,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:74LCX07_QFN")
-		(at 371.475 142.875 0)
+		(at 359.41 152.4 0)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8487,8 +8871,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000625a98e0")
-		(property "Reference" "U21"
-			(at 376.555 135.255 0)
+		(property "Reference" "U18"
+			(at 364.49 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8498,7 +8882,7 @@
 			)
 		)
 		(property "Value" "74LCX07_QFN"
-			(at 376.555 137.795 0)
+			(at 364.49 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,7 +8893,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
-			(at 396.875 150.495 0)
+			(at 384.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8522,7 +8906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/74LCX07_D-2309542.pdf"
-			(at 396.875 153.035 0)
+			(at 384.81 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,8 +8918,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 371.475 142.875 0)
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
+			(at 359.41 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8545,7 +8930,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 396.875 155.575 0)
+			(at 384.81 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +8943,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 382.905 146.6849 0)
+			(at 384.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,7 +8956,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 396.875 160.655 0)
+			(at 384.81 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8969,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 396.875 163.195 0)
+			(at 384.81 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +9029,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 6)
 				)
 			)
@@ -8662,7 +9047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000625bea6d")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR080"
 			(at 111.76 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8674,13 +9059,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 163.83 0)
+			(at 114.3 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8711,6 +9097,7 @@
 		)
 		(property "Description" ""
 			(at 111.76 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8751,7 +9138,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR088")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8769,15 +9156,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062627e6d")
-		(property "Reference" "R58"
-			(at 71.12 139.065 90)
+		(property "Reference" "R37"
+			(at 76.2 139.0649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -8794,7 +9181,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 78.74 142.875 0)
+			(at 58.42 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +9194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 73.66 137.795 0)
+			(at 55.88 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,8 +9206,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 73.66 137.795 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8830,7 +9218,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 83.82 142.875 0)
+			(at 50.8 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8843,7 +9231,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 81.28 142.875 0)
+			(at 53.34 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +9244,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 71.12 142.2399 90)
+			(at 76.2 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8864,7 +9252,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -8914,7 +9302,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R58")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8932,7 +9320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000631424ba")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR088"
 			(at 231.775 238.125 0)
 			(hide yes)
 			(show_name no)
@@ -8944,13 +9332,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.775 236.22 0)
+			(at 233.68 233.0449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8981,6 +9370,7 @@
 		)
 		(property "Description" ""
 			(at 231.775 231.775 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9021,7 +9411,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR096")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -9039,7 +9429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006350c5ad")
-		(property "Reference" "U19"
+		(property "Reference" "U16"
 			(at 187.325 52.705 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +9452,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:UQFN-16-1.8x2.6mm_P0.4mm_Texas_RSV0016A"
-			(at 176.53 81.28 0)
+			(at 158.75 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,7 +9465,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf"
-			(at 198.12 68.58 0)
+			(at 158.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,8 +9477,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Logic translator/level shifter"
 			(at 196.85 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9098,7 +9489,7 @@
 			)
 		)
 		(property "MPN" "74AVC4T245RSVRG4"
-			(at 187.325 55.245 0)
+			(at 158.75 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9111,7 +9502,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 186.69 76.2 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9200,7 +9591,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U19")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -9219,7 +9610,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006353f778")
 		(property "Reference" "Q5"
-			(at 76.2 152.3999 0)
+			(at 76.2 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9243,7 +9634,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SOT-416"
-			(at 71.12 161.29 0)
+			(at 91.44 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9256,7 +9647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rohm.com/datasheet?p=DTC014TEB&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
-			(at 66.04 153.67 0)
+			(at 91.44 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,8 +9659,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bipolar Pre-Biased / Digital Transistor, Single NPN, 50 V, 100 mA, 10 kohm"
 			(at 66.04 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9279,7 +9671,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
-			(at 81.28 156.21 0)
+			(at 91.44 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9292,7 +9684,8 @@
 			)
 		)
 		(property "MPN" "DTC014TEBTL"
-			(at 76.2 154.9399 0)
+			(at 91.44 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9300,7 +9693,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -9360,7 +9753,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000063557454")
 		(property "Reference" "Q6"
-			(at 114.3 152.3999 0)
+			(at 114.3 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9384,7 +9777,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SOT-416"
-			(at 109.22 161.29 0)
+			(at 129.54 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,7 +9790,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rohm.com/datasheet?p=DTC014TEB&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
-			(at 104.14 153.67 0)
+			(at 129.54 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,8 +9802,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bipolar Pre-Biased / Digital Transistor, Single NPN, 50 V, 100 mA, 10 kohm"
 			(at 104.14 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9420,7 +9814,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
-			(at 119.38 156.21 0)
+			(at 129.54 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9433,7 +9827,8 @@
 			)
 		)
 		(property "MPN" "DTC014TEBTL"
-			(at 114.3 154.9399 0)
+			(at 129.54 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9441,7 +9836,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -9494,13 +9889,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000638257ea")
-		(property "Reference" "TP24"
+		(property "Reference" "TP9"
 			(at 81.28 141.6049 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +9920,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 73.66 139.7 0)
+			(at 85.09 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 139.7 0)
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9550,8 +9945,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 78.74 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9561,7 +9957,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 93.98 127 0)
+			(at 90.17 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9574,7 +9970,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 96.52 127 0)
+			(at 85.09 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9587,7 +9983,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 99.06 127 0)
+			(at 87.63 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9600,7 +9996,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 101.6 127 0)
+			(at 90.17 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9618,7 +10014,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "TP24")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9630,13 +10026,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006382e8ed")
-		(property "Reference" "TP27"
+		(property "Reference" "TP12"
 			(at 118.11 141.6049 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +10057,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 110.49 139.7 0)
+			(at 121.92 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,7 +10070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 139.7 0)
+			(at 128.27 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9686,8 +10082,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 115.57 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9697,7 +10094,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 130.81 127 0)
+			(at 127 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9710,7 +10107,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 133.35 127 0)
+			(at 121.92 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +10120,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 135.89 127 0)
+			(at 124.46 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9736,7 +10133,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 138.43 127 0)
+			(at 127 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,7 +10151,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "TP27")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -9766,13 +10163,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000638423a7")
-		(property "Reference" "TP25"
+		(property "Reference" "TP10"
 			(at 100.33 222.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +10194,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 92.71 220.98 0)
+			(at 104.14 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9810,7 +10207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 220.98 0)
+			(at 110.49 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,8 +10219,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 97.79 226.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9833,7 +10231,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 113.03 208.28 0)
+			(at 109.22 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9846,7 +10244,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 115.57 208.28 0)
+			(at 104.14 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9859,7 +10257,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 118.11 208.28 0)
+			(at 106.68 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,7 +10270,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 120.65 208.28 0)
+			(at 109.22 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,7 +10288,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "TP25")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9902,13 +10300,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000063857362")
-		(property "Reference" "TP26"
+		(property "Reference" "TP11"
 			(at 106.68 38.7349 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9933,7 +10331,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 99.06 36.83 0)
+			(at 110.49 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +10344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 36.83 0)
+			(at 116.84 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9958,8 +10356,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 104.14 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9969,7 +10368,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 119.38 24.13 0)
+			(at 115.57 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9982,7 +10381,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 121.92 24.13 0)
+			(at 110.49 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +10394,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 124.46 24.13 0)
+			(at 113.03 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10407,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 127 24.13 0)
+			(at 115.57 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +10425,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "TP26")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000063ea9d32")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR076"
 			(at 73.66 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10056,13 +10455,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 163.83 0)
+			(at 76.2 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10093,6 +10493,7 @@
 		)
 		(property "Description" ""
 			(at 73.66 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10133,7 +10534,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR084")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10150,7 +10551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f9876a")
-		(property "Reference" "R63"
+		(property "Reference" "R42"
 			(at 245.11 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +10576,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 238.76 85.09 0)
+			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10188,7 +10589,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 243.84 90.17 0)
+			(at 261.62 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10200,8 +10601,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 243.84 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10211,7 +10613,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 233.68 85.09 0)
+			(at 266.7 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,7 +10626,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 236.22 85.09 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10237,7 +10639,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 245.11 88.265 90)
+			(at 251.46 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10245,7 +10647,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -10295,7 +10697,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R63")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -10312,7 +10714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f98ba5")
-		(property "Reference" "R61"
+		(property "Reference" "R40"
 			(at 228.6 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10337,7 +10739,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 222.25 85.09 0)
+			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +10752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 227.33 90.17 0)
+			(at 245.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10362,8 +10764,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 227.33 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10373,7 +10776,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 217.17 85.09 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +10789,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 219.71 85.09 0)
+			(at 247.65 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10399,7 +10802,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 228.6 88.265 90)
+			(at 234.95 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10407,7 +10810,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -10457,7 +10860,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R61")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10475,7 +10878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006533c78d")
-		(property "Reference" "R65"
+		(property "Reference" "R44"
 			(at 262.89 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10500,7 +10903,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 265.43 85.09 0)
+			(at 245.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +10916,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 260.35 90.17 0)
+			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,8 +10928,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 260.35 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10536,7 +10940,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 270.51 85.09 0)
+			(at 237.49 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10549,7 +10953,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 267.97 85.09 0)
+			(at 240.03 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10562,7 +10966,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 262.89 88.392 90)
+			(at 252.73 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10570,7 +10974,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -10620,7 +11024,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R65")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -10628,7 +11032,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:R_10k_0402")
-		(at 344.17 57.15 270)
+		(at 323.85 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10638,8 +11042,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065409e3d")
-		(property "Reference" "R67"
-			(at 346.71 58.42 90)
+		(property "Reference" "R45"
+			(at 326.39 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10650,7 +11054,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 340.36 57.15 0)
+			(at 320.04 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,7 +11067,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 349.25 62.23 0)
+			(at 308.61 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +11080,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 344.17 57.15 0)
+			(at 306.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,8 +11092,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 344.17 57.15 0)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 323.85 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10699,7 +11104,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 354.33 62.23 0)
+			(at 300.99 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10712,7 +11117,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 351.79 62.23 0)
+			(at 303.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +11130,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 346.71 61.5949 90)
+			(at 326.39 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10737,7 +11142,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 318.77 77.47 0)
+			(at 298.45 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,7 +11155,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 316.23 77.47 0)
+			(at 295.91 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10763,7 +11168,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 334.01 77.47 0)
+			(at 313.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,7 +11188,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R67")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10824,7 +11229,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SW_KMR211NGLFS_SMD"
-			(at 33.02 40.64 0)
+			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
-			(at 33.02 38.1 0)
+			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10849,8 +11254,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
 			(at 27.94 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10860,7 +11266,7 @@
 			)
 		)
 		(property "MPN" "KMR211NGLFS"
-			(at 26.162 41.402 0)
+			(at 53.34 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10872,7 +11278,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 33.02 33.7312 0)
+			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +11349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cad662")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR073"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10955,13 +11361,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 58.42 0)
+			(at 24.13 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10992,6 +11399,7 @@
 		)
 		(property "Description" ""
 			(at 21.59 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11032,7 +11440,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR081")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -11049,7 +11457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065cb4393")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 80.01 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11072,7 +11480,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SOT-23-5"
-			(at 61.595 57.15 0)
+			(at 108.585 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.com%2F&distId=26"
-			(at 70.485 44.45 0)
+			(at 108.585 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11097,8 +11505,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Voltage supervisor"
 			(at 70.485 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11108,7 +11517,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 67.945 52.07 0)
+			(at 108.585 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,7 +11530,7 @@
 			)
 		)
 		(property "MPN" "TPS3840PH30DBVR"
-			(at 64.135 59.69 0)
+			(at 108.585 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11177,7 +11586,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U17")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -11195,15 +11604,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cb4ea9")
-		(property "Reference" "C61"
-			(at 64.77 53.9813 90)
+		(property "Reference" "C45"
+			(at 69.85 53.9812 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "C_47n_0402"
@@ -11220,7 +11629,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 72.39 57.785 0)
+			(at 54.61 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,7 +11641,20 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H474KE11%23"
+			(at 52.07 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 47000 pF, 16 V, 0402 [1005 Metric], ± 10%, X5R, MC"
 			(at 67.31 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -11240,23 +11662,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 52.705 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer" "Multicomp"
-			(at 77.47 57.785 0)
+		(property "Manufacturer" "Murata"
+			(at 46.99 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11268,8 +11678,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MC0402X473K160CT"
-			(at 74.93 57.785 0)
+		(property "MPN" "GRM155R61H474KE11D"
+			(at 49.53 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11692,7 @@
 			)
 		)
 		(property "Val" "47n"
-			(at 64.77 57.1562 90)
+			(at 69.85 56.5213 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11290,7 +11700,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -11352,7 +11762,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C61")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -11370,7 +11780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cb5898")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR075"
 			(at 67.31 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -11382,13 +11792,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 62.865 0)
+			(at 69.85 59.0549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11419,6 +11830,7 @@
 		)
 		(property "Description" ""
 			(at 67.31 57.785 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11459,7 +11871,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR083")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11477,7 +11889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cb5e85")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR077"
 			(at 90.805 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -11489,13 +11901,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.805 62.865 0)
+			(at 92.71 59.0549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11526,6 +11939,7 @@
 		)
 		(property "Description" ""
 			(at 90.805 57.785 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11566,7 +11980,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR085")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11583,7 +11997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065cba321")
-		(property "Reference" "U18"
+		(property "Reference" "U15"
 			(at 81.28 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11606,7 +12020,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SOT-23-5"
-			(at 62.865 241.3 0)
+			(at 109.855 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,7 +12033,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.com%2F&distId=26"
-			(at 71.755 228.6 0)
+			(at 109.855 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,8 +12045,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Voltage supervisor"
 			(at 71.755 228.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11642,7 +12057,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 69.215 236.22 0)
+			(at 109.855 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11655,7 +12070,7 @@
 			)
 		)
 		(property "MPN" "TPS3840PH30DBVR"
-			(at 65.405 243.84 0)
+			(at 109.855 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11711,7 +12126,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U18")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -11729,8 +12144,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cba32e")
-		(property "Reference" "C60"
-			(at 66.675 238.7663 90)
+		(property "Reference" "C44"
+			(at 66.04 238.7662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11754,7 +12169,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 68.58 242.57 0)
+			(at 50.8 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11766,7 +12181,20 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H474KE11%23"
+			(at 48.26 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 47000 pF, 16 V, 0402 [1005 Metric], ± 10%, X5R, MC"
 			(at 63.5 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -11774,23 +12202,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer" "Multicomp"
-			(at 73.66 242.57 0)
+		(property "Manufacturer" "Murata"
+			(at 43.18 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11802,8 +12218,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MC0402X473K160CT"
-			(at 71.12 242.57 0)
+		(property "MPN" "GRM155R61H474KE11D"
+			(at 45.72 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,7 +12232,7 @@
 			)
 		)
 		(property "Val" "47n"
-			(at 66.675 241.9412 90)
+			(at 66.04 241.3063 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11886,7 +12302,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C60")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -11904,7 +12320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cba33b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR074"
 			(at 63.5 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -11916,13 +12332,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 247.65 0)
+			(at 66.04 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11953,6 +12370,7 @@
 		)
 		(property "Description" ""
 			(at 63.5 242.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11993,7 +12411,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR082")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -12011,7 +12429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cba345")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR078"
 			(at 92.71 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -12023,13 +12441,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 247.65 0)
+			(at 95.25 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12060,6 +12479,7 @@
 		)
 		(property "Description" ""
 			(at 92.71 242.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12100,170 +12520,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kria-k26-devboard:R_10k_0402")
-		(at 367.03 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000065cd8253")
-		(property "Reference" "R68"
-			(at 368.3 58.4201 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 363.22 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 372.11 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 367.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 377.19 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 374.65 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "10k"
-			(at 368.3 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 341.63 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 339.09 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 356.87 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "13ed22f7-0ad2-46d1-a432-db8eda193bfb")
-		)
-		(pin "2"
-			(uuid "92ab5a4d-48f1-421b-8f36-1d9f63b0a851")
-		)
-		(instances
-			(project "kria-k26-devboard"
-				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R68")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -12281,7 +12538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cf7c44")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR084"
 			(at 175.895 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -12293,13 +12550,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.895 69.215 0)
+			(at 177.8 65.4049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12330,6 +12588,7 @@
 		)
 		(property "Description" ""
 			(at 175.895 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12370,7 +12629,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR092")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -12388,7 +12647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065e2b5f7")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR092"
 			(at 326.39 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12400,13 +12659,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.39 152.4 0)
+			(at 328.93 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12437,6 +12697,7 @@
 		)
 		(property "Description" ""
 			(at 326.39 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12477,7 +12738,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR0100")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -12495,7 +12756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065e346fd")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR086"
 			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12545,6 +12806,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12585,7 +12847,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR094")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -12602,7 +12864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000065e9f76c")
-		(property "Reference" "C64"
+		(property "Reference" "C48"
 			(at 154.305 60.3313 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12627,7 +12889,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 156.845 64.135 0)
+			(at 139.065 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12639,8 +12901,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 151.765 59.055 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 136.525 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12652,8 +12914,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 151.765 59.055 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12663,7 +12926,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 161.925 64.135 0)
+			(at 131.445 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12676,7 +12939,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 159.385 64.135 0)
+			(at 133.985 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12952,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 154.305 63.5062 90)
+			(at 144.145 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12697,7 +12960,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -12759,7 +13022,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C64")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -12777,7 +13040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065ea28c3")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR082"
 			(at 151.765 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -12789,13 +13052,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.765 69.469 0)
+			(at 153.67 65.4049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12826,6 +13090,7 @@
 		)
 		(property "Description" ""
 			(at 151.765 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12866,7 +13131,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR090")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12884,8 +13149,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065ea53bf")
-		(property "Reference" "C65"
-			(at 154.94 74.9363 90)
+		(property "Reference" "C49"
+			(at 154.94 74.9362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12909,7 +13174,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 156.845 78.74 0)
+			(at 139.065 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12921,8 +13186,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 151.765 73.66 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 136.525 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12934,8 +13199,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 151.765 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12945,7 +13211,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 161.925 78.74 0)
+			(at 131.445 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12958,7 +13224,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 159.385 78.74 0)
+			(at 133.985 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12971,7 +13237,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 154.94 78.1112 90)
+			(at 154.94 77.4763 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13041,7 +13307,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C65")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -13059,7 +13325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065ea5577")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR083"
 			(at 151.765 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13071,13 +13337,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.765 84.074 0)
+			(at 153.67 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13108,6 +13375,7 @@
 		)
 		(property "Description" ""
 			(at 151.765 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13148,7 +13416,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR091")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -13166,8 +13434,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065eac36f")
-		(property "Reference" "C62"
-			(at 111.125 55.8863 90)
+		(property "Reference" "C46"
+			(at 111.76 55.8862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13191,7 +13459,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 113.665 59.69 0)
+			(at 95.885 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13203,8 +13471,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 108.585 54.61 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 93.345 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13216,8 +13484,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 108.585 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13227,7 +13496,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 118.745 59.69 0)
+			(at 88.265 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13240,7 +13509,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 116.205 59.69 0)
+			(at 90.805 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13253,7 +13522,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 111.125 59.0612 90)
+			(at 111.76 58.4263 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13323,7 +13592,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C62")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13341,7 +13610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065eac6f1")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR079"
 			(at 108.585 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13353,13 +13622,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 108.585 64.77 0)
+			(at 110.49 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13390,6 +13660,7 @@
 		)
 		(property "Description" ""
 			(at 108.585 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13430,7 +13701,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR087")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -13448,8 +13719,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006605cefb")
-		(property "Reference" "C66"
-			(at 184.785 222.2563 90)
+		(property "Reference" "C50"
+			(at 184.15 222.2562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13473,7 +13744,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 186.69 226.06 0)
+			(at 168.91 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13485,8 +13756,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 181.61 220.98 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 166.37 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13498,8 +13769,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 181.61 220.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13509,7 +13781,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 191.77 226.06 0)
+			(at 161.29 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13522,7 +13794,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 189.23 226.06 0)
+			(at 163.83 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13535,7 +13807,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 184.785 225.4312 90)
+			(at 184.15 224.7963 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13605,7 +13877,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C66")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -13623,7 +13895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006605cf07")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR085"
 			(at 181.61 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -13635,13 +13907,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 231.14 0)
+			(at 184.15 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13672,6 +13945,7 @@
 		)
 		(property "Description" ""
 			(at 181.61 226.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13712,7 +13986,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR093")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -13730,8 +14004,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006606bb6a")
-		(property "Reference" "C63"
-			(at 120.65 238.7663 90)
+		(property "Reference" "C47"
+			(at 120.65 238.7662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13755,7 +14029,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 122.555 242.57 0)
+			(at 104.775 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,8 +14041,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 117.475 237.49 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 102.235 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13780,8 +14054,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 117.475 237.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13791,7 +14066,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 127.635 242.57 0)
+			(at 97.155 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13804,7 +14079,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 125.095 242.57 0)
+			(at 99.695 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13817,7 +14092,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 120.65 241.9412 90)
+			(at 120.65 241.3063 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13887,7 +14162,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C63")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -13905,7 +14180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006606bfe2")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR081"
 			(at 117.475 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -13917,13 +14192,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.475 247.65 0)
+			(at 119.38 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13954,6 +14230,7 @@
 		)
 		(property "Description" ""
 			(at 117.475 242.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13994,7 +14271,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR089")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -14012,8 +14289,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000066089940")
-		(property "Reference" "C67"
-			(at 317.5 140.9763 90)
+		(property "Reference" "C51"
+			(at 317.5 140.9762 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14037,7 +14314,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 320.04 144.78 0)
+			(at 302.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,8 +14326,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 314.96 139.7 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 299.72 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14062,8 +14339,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 314.96 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14073,7 +14351,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 325.12 144.78 0)
+			(at 294.64 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14086,7 +14364,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 322.58 144.78 0)
+			(at 297.18 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14099,7 +14377,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 317.5 144.1512 90)
+			(at 317.5 143.5163 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14169,7 +14447,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "C67")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -14187,8 +14465,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006888b4e6")
-		(property "Reference" "D15"
-			(at 52.705 40.64 0)
+		(property "Reference" "D11"
+			(at 52.705 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14209,7 +14487,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:D_SOD-323F"
-			(at 51.435 53.34 0)
+			(at 34.925 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14500,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf"
-			(at 51.435 55.88 0)
+			(at 34.925 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14234,8 +14512,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Diode, Single, 100 V, 150 mA, 1.2 V, 4 ns, 350 mA"
 			(at 56.515 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14245,7 +14524,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 51.435 60.96 0)
+			(at 34.925 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14258,7 +14537,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 51.435 76.2 0)
+			(at 34.925 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +14584,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -14323,8 +14602,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000688c4d88")
-		(property "Reference" "D14"
-			(at 52.07 237.49 0)
+		(property "Reference" "D10"
+			(at 52.07 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14334,7 +14613,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 52.07 240.03 0)
+			(at 52.07 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14345,7 +14624,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:D_SOD-323F"
-			(at 50.8 237.49 0)
+			(at 34.29 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,7 +14637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf"
-			(at 50.8 240.03 0)
+			(at 34.29 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,8 +14649,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Diode, Single, 100 V, 150 mA, 1.2 V, 4 ns, 350 mA"
 			(at 55.88 232.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14381,7 +14661,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 50.8 245.11 0)
+			(at 34.29 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14674,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 50.8 260.35 0)
+			(at 34.29 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14441,7 +14721,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "D14")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000068d884bb")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR087"
 			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14471,13 +14751,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 102.87 0)
+			(at 229.87 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14508,6 +14789,7 @@
 		)
 		(property "Description" ""
 			(at 227.33 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14548,7 +14830,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR095")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -14566,7 +14848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000068d93b82")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR089"
 			(at 243.84 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14578,13 +14860,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 102.87 0)
+			(at 246.38 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14615,6 +14898,7 @@
 		)
 		(property "Description" ""
 			(at 243.84 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14655,7 +14939,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR097")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -14673,7 +14957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000068ecf775")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR090"
 			(at 260.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14685,13 +14969,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 102.87 0)
+			(at 262.89 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14722,6 +15007,7 @@
 		)
 		(property "Description" ""
 			(at 260.35 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14762,7 +15048,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR098")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -14779,7 +15065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000694166b5")
-		(property "Reference" "U20"
+		(property "Reference" "U17"
 			(at 220.98 215.265 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14802,7 +15088,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:SOT-753"
-			(at 217.17 217.17 0)
+			(at 243.84 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14815,7 +15101,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g125"
-			(at 217.17 214.63 0)
+			(at 243.84 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14827,8 +15113,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, 74LVC1G125, 1.65 V to 5.5 V, SOT-23-5"
 			(at 212.09 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14838,7 +15125,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC1G125DBVR"
-			(at 220.98 217.805 0)
+			(at 243.84 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14851,7 +15138,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 217.17 194.31 0)
+			(at 243.84 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14907,7 +15194,116 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U20")
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 235.585 146.685 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ce535e-e45d-4228-ad50-605e90f06ae7")
+		(property "Reference" "#PWR0245"
+			(at 235.585 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 147.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.475 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 244.475 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 235.585 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 244.475 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 244.475 156.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "97723eef-39d6-4b5b-b6c6-57556772b233")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -14924,7 +15320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17b9256b-8749-4766-b93e-4238dad7d8b9")
-		(property "Reference" "U21"
+		(property "Reference" "U18"
 			(at 339.725 139.0649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14973,8 +15369,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
 			(at 328.295 137.795 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14997,7 +15394,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 339.725 141.6049 0)
+			(at 353.695 153.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15083,7 +15480,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 7)
 				)
 			)
@@ -15091,7 +15488,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:74LCX07_QFN")
-		(at 354.33 153.67 0)
+		(at 359.41 139.7 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15101,8 +15498,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c1c734-ae8f-4b6c-85ae-589628bebc01")
-		(property "Reference" "U21"
-			(at 359.41 146.05 0)
+		(property "Reference" "U18"
+			(at 364.49 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15112,7 +15509,7 @@
 			)
 		)
 		(property "Value" "74LCX07_QFN"
-			(at 359.41 148.59 0)
+			(at 364.49 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15120,11 +15517,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
-			(at 356.87 162.56 0)
+			(at 384.81 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +15533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/74LCX07_D-2309542.pdf"
-			(at 354.33 153.67 0)
+			(at 384.81 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15149,8 +15545,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 354.33 153.67 0)
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
+			(at 359.41 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15160,7 +15557,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 345.44 157.48 0)
+			(at 384.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15173,7 +15570,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 359.41 148.59 0)
+			(at 384.81 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15186,7 +15583,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 379.73 171.45 0)
+			(at 384.81 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15199,7 +15596,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 379.73 173.99 0)
+			(at 384.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15259,7 +15656,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 5)
 				)
 			)
@@ -15276,7 +15673,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3907dadc-e6e5-4019-b41f-790b9bf049d2")
-		(property "Reference" "R62"
+		(property "Reference" "R41"
 			(at 242.57 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15301,7 +15698,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 248.92 64.77 0)
+			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15314,7 +15711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 243.84 59.69 0)
+			(at 226.06 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15326,8 +15723,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 243.84 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15337,7 +15735,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 254 64.77 0)
+			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15350,7 +15748,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 251.46 64.77 0)
+			(at 223.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15761,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 242.57 61.595 90)
+			(at 236.22 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15371,7 +15769,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -15421,7 +15819,292 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R62")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_47n_0402")
+		(at 235.585 141.605 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "426d8f5b-6f37-4893-a2ff-7bd06eb53412")
+		(property "Reference" "C126"
+			(at 238.76 142.8812 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_220n_0402"
+			(at 231.775 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 222.885 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H474KE11%23"
+			(at 220.345 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 47000 pF, 16 V, 0402 [1005 Metric], ± 10%, X5R, MC"
+			(at 235.585 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 215.265 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRM155R61H474KE11D"
+			(at 217.805 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "47n"
+			(at 238.76 145.4213 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 212.725 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 210.185 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 207.645 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 205.105 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "84ef7ba0-60ab-4370-971e-e9330f00f0bb")
+		)
+		(pin "2"
+			(uuid "ebe43433-5593-4041-b4d2-cf6b81dec94c")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 354.33 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e67048-7824-4a5e-88ff-e209e1f114b1")
+		(property "Reference" "#PWR0244"
+			(at 354.33 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 363.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e18ae860-6346-4c95-bccb-a5277f1738ad")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -15438,7 +16121,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "50340028-38ea-4b48-8e61-b2fa0b5591e6")
-		(property "Reference" "R60"
+		(property "Reference" "R39"
 			(at 226.06 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15463,7 +16146,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 232.41 64.77 0)
+			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15476,7 +16159,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 227.33 59.69 0)
+			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15488,8 +16171,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 227.33 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15499,7 +16183,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 237.49 64.77 0)
+			(at 204.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15512,7 +16196,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 234.95 64.77 0)
+			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +16209,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 226.06 61.595 90)
+			(at 219.71 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15533,7 +16217,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -15583,7 +16267,183 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R60")
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 276.86 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e47c2c-83d8-4a53-bb74-797b02e6ebe8")
+		(property "Reference" "C127"
+			(at 279.4 144.7862 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 273.05 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 264.16 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 261.62 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 276.86 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 256.54 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 259.08 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 279.4 147.3263 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 251.46 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 248.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 246.38 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "bdf616c2-c51f-4aab-8293-c233836cb9e9")
+		)
+		(pin "2"
+			(uuid "9bda2c05-132b-44dd-8f85-3e082c6b393a")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -15601,15 +16461,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d84aa2d-4f81-41ad-bd7c-def46cec4325")
-		(property "Reference" "R59"
-			(at 109.22 139.065 90)
+		(property "Reference" "R38"
+			(at 114.3 139.0649 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R_1k_0402"
@@ -15626,7 +16486,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 106.68 137.795 0)
+			(at 127 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15639,7 +16499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 111.76 142.875 0)
+			(at 129.54 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15651,8 +16511,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 111.76 142.875 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15662,7 +16523,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 101.6 137.795 0)
+			(at 134.62 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15675,7 +16536,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 104.14 137.795 0)
+			(at 132.08 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15688,7 +16549,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 109.22 142.2399 90)
+			(at 114.3 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15696,7 +16557,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -15746,7 +16607,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R59")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -15754,7 +16615,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:74LCX07_QFN")
-		(at 353.695 142.875 0)
+		(at 359.41 127 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15764,8 +16625,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "693cbf4d-db31-4224-8913-1742e6ad071b")
-		(property "Reference" "U21"
-			(at 358.775 135.255 0)
+		(property "Reference" "U18"
+			(at 364.49 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15775,7 +16636,7 @@
 			)
 		)
 		(property "Value" "74LCX07_QFN"
-			(at 358.775 137.795 0)
+			(at 364.49 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15786,7 +16647,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
-			(at 379.095 150.495 0)
+			(at 384.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15799,7 +16660,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/74LCX07_D-2309542.pdf"
-			(at 379.095 153.035 0)
+			(at 384.81 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15811,8 +16672,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 353.695 142.875 0)
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
+			(at 359.41 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15822,7 +16684,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 379.095 155.575 0)
+			(at 384.81 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15835,7 +16697,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 365.125 146.6849 0)
+			(at 384.81 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15848,7 +16710,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 379.095 160.655 0)
+			(at 384.81 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15861,7 +16723,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 379.095 163.195 0)
+			(at 384.81 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15921,37 +16783,37 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "kria-k26-devboard:R_10k_0402")
-		(at 322.58 57.15 270)
+		(lib_id "kria-k26-devboard:TP_0.75mm_SMD")
+		(at 217.17 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69746ea4-e3a5-4d98-91f0-a7b2320cc084")
-		(property "Reference" "R95"
-			(at 325.12 58.42 90)
+		(uuid "6b8efae6-5601-4909-a566-5666f31c699a")
+		(property "Reference" "TP29"
+			(at 219.71 131.4449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 318.77 57.15 0)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15963,8 +16825,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 327.66 62.23 0)
+		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
+			(at 223.52 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15976,8 +16838,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 322.58 57.15 0)
+		(property "Datasheet" ""
+			(at 229.87 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15989,8 +16851,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 57.15 0)
+		(property "Description" "SMT test point"
+			(at 217.17 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15999,8 +16862,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 332.74 62.23 0)
+		(property "MPN" ""
+			(at 228.6 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16012,33 +16875,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 330.2 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "10k"
-			(at 325.12 61.5949 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 297.18 77.47 0)
+		(property "Manufacturer" ""
+			(at 223.52 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16051,7 +16889,169 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 294.64 77.47 0)
+			(at 226.06 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 228.6 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "051fe469-86e4-47c3-b119-292ba7d42c31")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:R_10k_0402")
+		(at 361.95 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c003830-bee8-4ff3-9d6f-5037990926d8")
+		(property "Reference" "R47"
+			(at 364.49 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 358.14 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
+			(at 346.71 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 344.17 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 361.95 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 339.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 341.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "10k"
+			(at 364.49 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 336.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16064,7 +17064,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 312.42 77.47 0)
+			(at 351.79 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16076,15 +17076,161 @@
 			)
 		)
 		(pin "1"
-			(uuid "00ec7621-408e-47f2-a86f-c51e6d8fc564")
+			(uuid "a9bc3994-bfed-49f7-a98d-662d11a3d73b")
 		)
 		(pin "2"
-			(uuid "1ec36222-b3d7-44b6-955a-79a73fff23b0")
+			(uuid "065fe78b-7812-41cf-a058-6de3b2611c8d")
 		)
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R95")
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:TPS3840PH30DBVR")
+		(at 238.76 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f8f6760-20e6-4898-8715-eb7e7734d1ee")
+		(property "Reference" "U31"
+			(at 248.285 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS3840PL30DBVR"
+			(at 239.141 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:SOT-23-5"
+			(at 276.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.com%2F&distId=26"
+			(at 276.86 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Voltage supervisor"
+			(at 238.76 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 276.86 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "TPS3840PH30DBVR"
+			(at 276.86 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 276.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fc3a4f18-310d-41da-a33e-05d1ec7fb368")
+		)
+		(pin "2"
+			(uuid "e07bf239-9ad0-4039-b1bf-fed08d352345")
+		)
+		(pin "3"
+			(uuid "df1dca28-7107-4744-8e5a-2c2a07053f36")
+		)
+		(pin "4"
+			(uuid "fd245d61-fc66-456c-a1c3-dbd09e705011")
+		)
+		(pin "5"
+			(uuid "848aa5a8-14e6-4ac5-b2aa-52af224c70c9")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -16101,7 +17247,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9e98394a-fe98-45de-92d7-81f472b2fa79")
-		(property "Reference" "R64"
+		(property "Reference" "R43"
 			(at 259.08 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16126,7 +17272,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
-			(at 265.43 64.77 0)
+			(at 245.11 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16139,7 +17285,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 260.35 59.69 0)
+			(at 242.57 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,8 +17297,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 260.35 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16162,7 +17309,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 270.51 64.77 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16175,7 +17322,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 267.97 64.77 0)
+			(at 240.03 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16188,7 +17335,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 259.08 61.595 90)
+			(at 252.73 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16196,7 +17343,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -16246,7 +17393,144 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "R64")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:TP_0.75mm_SMD")
+		(at 272.415 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3af7258-aeb1-456d-88c0-b97010086ce4")
+		(property "Reference" "TP28"
+			(at 274.32 127.6349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 274.955 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
+			(at 278.765 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.115 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 272.415 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 283.845 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 278.765 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 281.305 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 283.845 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "927a1d1d-3a9f-48bc-bb5d-9cafad5d09d0")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -16264,7 +17548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd1b099b-284c-4eb2-81ce-cf644e5a3bc5")
-		(property "Reference" "U21"
+		(property "Reference" "U18"
 			(at 304.8 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16311,8 +17595,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)"
 			(at 299.72 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16335,7 +17620,7 @@
 			)
 		)
 		(property "MPN" "74LCX07BQX"
-			(at 311.15 113.0299 0)
+			(at 325.12 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16421,8 +17706,390 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "U21")
+					(reference "U18")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 259.08 146.685 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf826434-368c-46d2-bf08-b4aa72795740")
+		(property "Reference" "#PWR0246"
+			(at 259.08 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 147.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 156.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9863fa6d-94cf-498f-98ee-5b4385bb3da3")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:R_10k_0402")
+		(at 342.9 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ab86d9-c82b-4da7-a343-ead93118104a")
+		(property "Reference" "R46"
+			(at 345.44 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 339.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
+			(at 327.66 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 325.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 342.9 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 320.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 322.58 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "10k"
+			(at 345.44 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 317.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 314.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 332.74 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c51ebb59-73f1-47e6-aaf2-2adb9d13cd93")
+		)
+		(pin "2"
+			(uuid "44536ed2-a0f9-4969-afd8-46f926619e2d")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 276.86 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e332876f-cb6d-40a3-aa39-e1d2ff146ea6")
+		(property "Reference" "#PWR0247"
+			(at 276.86 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 285.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "617fb421-a96a-4e2d-a132-fc1009212069")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
+					(reference "#PWR0247")
+					(unit 1)
 				)
 			)
 		)
@@ -16439,7 +18106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff358ec1-ab4b-487e-98e0-20546848dbb0")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR091"
 			(at 314.96 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16451,13 +18118,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 149.86 0)
+			(at 317.5 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16488,6 +18156,7 @@
 		)
 		(property "Description" ""
 			(at 314.96 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16528,7 +18197,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "#PWR099")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)

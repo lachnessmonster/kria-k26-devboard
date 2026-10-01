@@ -473,7 +473,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -486,7 +486,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -583,6 +583,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "C_100n_0402_0_1"
@@ -3860,6 +3871,7 @@
 				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3872,7 +3884,6 @@
 				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3950,7 +3961,7 @@
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -5475,16 +5486,22 @@
 		(uuid "f11cc8ba-5264-4132-ba4b-c0ad97549b1d")
 	)
 	(junction
-		(at 233.045 140.97)
+		(at 232.41 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24003582-d31b-45c8-a9e7-c43440399fd7")
 	)
 	(junction
-		(at 233.045 138.43)
+		(at 232.41 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3800b501-fe1b-4c52-88bf-d0423e75d857")
+	)
+	(junction
+		(at 180.34 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5adf5f62-2d9b-465d-ac8e-c56f24889025")
 	)
 	(junction
 		(at 281.94 140.97)
@@ -5493,7 +5510,7 @@
 		(uuid "6467450b-52f2-455a-9b97-505391345390")
 	)
 	(junction
-		(at 233.045 143.51)
+		(at 232.41 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b507b82-a696-41d5-9b37-720ab1c7b858")
@@ -5511,7 +5528,7 @@
 		(uuid "9a25d0db-b4e6-44cc-a0ae-b5e10c4bd3e3")
 	)
 	(junction
-		(at 233.045 146.05)
+		(at 232.41 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c3d3ad8-a3ee-4978-b880-158843888a65")
@@ -5523,16 +5540,10 @@
 		(uuid "a5ed2cf3-3844-4d15-843d-356726c9f5ec")
 	)
 	(junction
-		(at 233.045 135.89)
+		(at 232.41 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e772c1-395c-4968-b2bc-b3719d8216b5")
-	)
-	(junction
-		(at 154.94 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c22e8c54-e1ae-4438-8e4a-b5222ee708bc")
 	)
 	(junction
 		(at 253.365 120.65)
@@ -5541,7 +5552,7 @@
 		(uuid "c327e981-9fa7-402f-b11b-43e64242281a")
 	)
 	(no_connect
-		(at 244.475 146.05)
+		(at 245.11 146.05)
 		(uuid "50234244-71f0-4e78-a29d-3d0adabf1374")
 	)
 	(wire
@@ -5556,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 185.42 125.73)
+			(xy 170.18 125.73) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 140.97) (xy 281.94 140.97)
+			(xy 245.11 140.97) (xy 281.94 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5576,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 138.43) (xy 233.045 138.43)
+			(xy 232.41 138.43) (xy 234.95 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 140.97) (xy 233.045 143.51)
+			(xy 232.41 140.97) (xy 232.41 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 135.89) (xy 233.045 135.89)
+			(xy 232.41 135.89) (xy 234.95 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 143.51) (xy 279.4 143.51)
+			(xy 245.11 143.51) (xy 279.4 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5656,13 +5667,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 154.94 133.35)
+			(xy 177.8 133.35) (xy 180.34 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "443aa3d5-9c6d-44fc-addc-07854c21df6a")
+		(uuid "43365987-6a6b-48ed-a160-d1e7dc21b0cb")
 	)
 	(wire
 		(pts
@@ -5676,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 140.97) (xy 233.045 140.97)
+			(xy 232.41 140.97) (xy 234.95 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5696,17 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 148.59) (xy 230.505 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48dd1837-2cdb-44ec-a97e-5e8bc07f9c9b")
-	)
-	(wire
-		(pts
-			(xy 233.045 146.05) (xy 234.315 146.05)
+			(xy 232.41 146.05) (xy 234.95 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +5747,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 133.35) (xy 233.045 133.35)
+			(xy 232.41 151.13) (xy 232.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5946b776-6b5e-4a1f-9047-bbd04ee1b62d")
+	)
+	(wire
+		(pts
+			(xy 232.41 133.35) (xy 234.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +5767,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 138.43) (xy 233.045 140.97)
+			(xy 232.41 138.43) (xy 232.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5766,7 +5777,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 133.35) (xy 233.045 135.89)
+			(xy 232.41 133.35) (xy 232.41 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5776,23 +5787,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 143.51) (xy 233.045 146.05)
+			(xy 232.41 143.51) (xy 232.41 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "745bc85e-5deb-41e0-bc58-78d1117dd72b")
-	)
-	(wire
-		(pts
-			(xy 233.045 146.05) (xy 233.045 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c12534-122f-4011-b2ca-0fbcf2b8adb0")
 	)
 	(wire
 		(pts
@@ -5836,7 +5837,17 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 133.35) (xy 246.38 133.35)
+			(xy 180.34 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f6e9db-31a2-4b6e-a31d-dd6460f8acc3")
+	)
+	(wire
+		(pts
+			(xy 245.11 133.35) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 135.89) (xy 287.02 135.89)
+			(xy 245.11 135.89) (xy 287.02 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5867,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 143.51) (xy 233.045 143.51)
+			(xy 180.34 125.73) (xy 180.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bbeb62-bfb8-43cf-88ee-11d431344696")
+	)
+	(wire
+		(pts
+			(xy 232.41 143.51) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5887,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 138.43) (xy 284.48 138.43)
+			(xy 245.11 138.43) (xy 284.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5946,16 +5967,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 154.94 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d4d2b8-10fb-4cc6-8a7e-7280efbe8eba")
-	)
-	(wire
-		(pts
 			(xy 147.32 142.24) (xy 138.43 142.24)
 		)
 		(stroke
@@ -5996,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.475 148.59) (xy 256.413 148.59)
+			(xy 245.11 148.59) (xy 247.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6006,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 165.1 125.73)
+			(xy 149.86 125.73) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6016,17 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 149.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a75f68-05fe-434a-b94a-88c574d8696e")
-	)
-	(wire
-		(pts
-			(xy 233.045 135.89) (xy 233.045 138.43)
+			(xy 232.41 135.89) (xy 232.41 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6043,16 +6044,6 @@
 			(type default)
 		)
 		(uuid "f7c4cf62-be45-45dc-a49c-c9c588a17357")
-	)
-	(label "CONN_GND"
-		(at 256.413 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42928d43-8665-4048-aed4-779babf9ae5a")
 	)
 	(global_label "PS_1V8"
 		(shape input)
@@ -6148,6 +6139,17 @@
 		)
 		(uuid "750659ed-ebf8-4c47-b808-43636afc0918")
 	)
+	(hierarchical_label "~{PS_SRST_C2M}"
+		(shape input)
+		(at 247.65 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a945c5e-dfa6-410f-9631-4d6f7eac5a43")
+	)
 	(hierarchical_label "JTAG_TCK_C2M"
 		(shape input)
 		(at 304.165 138.43 0)
@@ -6192,17 +6194,6 @@
 		)
 		(uuid "cb80b23c-902e-43a9-ba42-0fb2e0b599d4")
 	)
-	(hierarchical_label "~{PS_SRST_C2M}"
-		(shape input)
-		(at 230.505 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc53d7d8-47d3-4db4-b3e8-e3ab48427399")
-	)
 	(symbol
 		(lib_id "kria-k26-devboard:GND")
 		(at 297.18 166.37 0)
@@ -6215,7 +6206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062c6054e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR063"
 			(at 297.18 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6265,6 +6256,7 @@
 		)
 		(property "Description" ""
 			(at 297.18 166.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6305,7 +6297,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "#PWR070")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6305,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:PinHeader_2x7_P2mm_Drill1mm_Shrouded")
-		(at 234.315 133.35 0)
+		(at 234.95 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6322,8 +6314,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064a16d7f")
-		(property "Reference" "J4"
-			(at 239.395 127.635 0)
+		(property "Reference" "J5"
+			(at 240.03 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6333,7 +6325,7 @@
 			)
 		)
 		(property "Value" "PinHeader_2x7_P2mm_Drill1mm_Shrouded"
-			(at 259.715 138.43 0)
+			(at 260.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +6338,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_2x7_P2mm_Drill1mm_Shrouded"
-			(at 259.715 140.97 0)
+			(at 260.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,7 +6351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878322620_sd.pdf"
-			(at 259.715 143.51 0)
+			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,8 +6363,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 234.315 133.35 0)
+		(property "Description" "Pin Header, Wire-to-Board, 2 mm, 2 Rows, 14 Contacts, Surface Mount Straight, Milli-Grid 87832"
+			(at 234.95 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6382,7 +6375,7 @@
 			)
 		)
 		(property "MPN" "0878311420"
-			(at 239.395 130.175 0)
+			(at 260.35 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6390,10 +6383,11 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 259.715 148.59 0)
+			(at 260.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +6400,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 259.715 151.13 0)
+			(at 260.35 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6413,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 259.715 153.67 0)
+			(at 260.35 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6470,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6494,8 +6488,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000064a686bf")
-		(property "Reference" "C52"
-			(at 255.905 123.1963 90)
+		(property "Reference" "C43"
+			(at 256.54 123.1962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6519,7 +6513,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 258.445 127 0)
+			(at 240.665 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,8 +6525,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 253.365 121.92 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 238.125 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,8 +6538,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 253.365 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6555,7 +6550,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 263.525 127 0)
+			(at 233.045 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6563,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 260.985 127 0)
+			(at 235.585 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,7 +6576,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 255.905 126.3712 90)
+			(at 256.54 125.7363 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +6646,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "C52")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6669,7 +6664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000064a85157")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR062"
 			(at 253.365 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6681,13 +6676,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 253.365 132.08 0)
+			(at 255.27 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6718,6 +6714,7 @@
 		)
 		(property "Description" ""
 			(at 253.365 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6758,7 +6755,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "#PWR069")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6766,7 +6763,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:GND")
-		(at 233.045 151.13 0)
+		(at 232.41 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6776,8 +6773,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000064bc5e04")
-		(property "Reference" "#PWR068"
-			(at 233.045 157.48 0)
+		(property "Reference" "#PWR061"
+			(at 232.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,17 +6785,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.045 156.21 0)
+			(at 234.95 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 241.935 158.75 0)
+			(at 241.3 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.935 163.83 0)
+			(at 241.3 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6822,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.045 151.13 0)
+			(at 232.41 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6834,7 +6833,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 241.935 158.75 0)
+			(at 241.3 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6847,7 +6846,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 241.935 161.29 0)
+			(at 241.3 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +6864,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "#PWR068")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6883,7 +6882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000683cf833")
-		(property "Reference" "U14"
+		(property "Reference" "U13"
 			(at 284.48 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,7 +6905,7 @@
 			)
 		)
 		(property "Footprint" "kria-k26-devboard-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 267.97 151.13 0)
+			(at 284.48 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 269.24 149.86 0)
+			(at 287.02 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,8 +6930,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD protection"
 			(at 279.4 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6942,7 +6942,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 262.89 158.75 0)
+			(at 289.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +6955,8 @@
 			)
 		)
 		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 274.32 160.655 90)
+			(at 292.1 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6963,11 +6964,11 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 294.64 175.26 0)
+			(at 294.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +6981,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 297.18 175.26 0)
+			(at 297.18 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7026,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "U14")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -7034,6 +7035,7 @@
 	(symbol
 		(lib_id "Logic_LevelTranslator:TXS0102DCU")
 		(at 167.64 140.97 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7041,10 +7043,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0c45a82-78f2-40d3-8529-d700f24c09d5")
-		(property "Reference" "U2"
-			(at 169.7833 153.67 0)
+		(uuid "a1e99a05-ef9f-4282-bfb9-eca5f9cda496")
+		(property "Reference" "U12"
+			(at 165.4967 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7055,7 +7056,7 @@
 			)
 		)
 		(property "Value" "TXS0102DCU"
-			(at 169.7833 156.21 0)
+			(at 165.4967 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7099,33 +7100,33 @@
 			)
 		)
 		(pin "8"
-			(uuid "84148a83-e7b0-4839-8d28-7f0337fcc123")
+			(uuid "891e2fae-8415-4f3f-8926-aff5eb81ddad")
 		)
 		(pin "7"
-			(uuid "e58213ad-9b73-42ed-a82e-415865939042")
+			(uuid "047c335e-b4ee-4dbe-9ade-4d4ef6775819")
 		)
 		(pin "3"
-			(uuid "89d7b1ed-86e1-4e94-9386-b5c2a1f8a60b")
+			(uuid "f115bc5f-671f-404c-be56-001868a08fa6")
 		)
 		(pin "4"
-			(uuid "55655573-8396-49d7-9104-9b9fe1fdf919")
+			(uuid "970c056d-48e1-499c-87b7-52924924ad0c")
 		)
 		(pin "2"
-			(uuid "2d94bf54-c775-45d2-b017-2db1f1d36f2c")
+			(uuid "81b628e4-9f74-4928-9dc6-e849c2856998")
 		)
 		(pin "5"
-			(uuid "0e6bf9ea-63cf-4e71-8a37-ce46dd735951")
+			(uuid "e28d4703-0b4a-4f13-9cf0-495bfb0d701b")
 		)
 		(pin "1"
-			(uuid "593c4bf8-bc47-494c-82ed-959f0ef04024")
+			(uuid "889dc6c7-5789-4e1a-b811-731a72eda54e")
 		)
 		(pin "6"
-			(uuid "0c16220d-3329-46f2-804a-42c605182da0")
+			(uuid "71af915b-6972-4a70-b967-c7bd80a801ee")
 		)
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "U2")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bbc240-5126-461e-834a-79749a152762")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 134.62 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7265,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df4966b7-ce23-4adf-802b-65213cbb96fa")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR060"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7294,16 +7295,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 165.1 0)
+			(at 170.18 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+		(property "Footprint" ""
 			(at 167.64 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7342,7 +7344,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-0000625b0244"
-					(reference "#PWR07")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

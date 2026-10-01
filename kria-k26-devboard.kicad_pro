@@ -562,7 +562,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.386,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.178,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -581,7 +580,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -600,7 +598,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.146,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.109,
         "line_style": 0,
         "microvia_diameter": 0.4,
@@ -1938,7 +1935,7 @@
         "uuid": "c38c692d-dd84-4abf-ab35-63104b24d124"
       }
     ],
-    "used_designators": "Y1-7,#PWR1-333,IC1-3,S1-2,J_SOM240_1-4,SP1-5,J1-15,C1-200,MP1-4,Q1-15,D1-32,U1-47,TP1-60,TP63-81,R1-162,M1,L1-16",
+    "used_designators": "#PWR1-333,Y1-9,J1-17,SP1-5,J_SOM240_1-4,S1-2,C1-200,MP1-4,IC1-3,Q1-15,D1-32,U1-47,TP1-60,TP63-81,L1-16,R1-162,M1",
     "variants": []
   },
   "sheets": [
@@ -1947,8 +1944,12 @@
       "kria-k26-devboard"
     ],
     [
+      "18a958bf-f192-4ab6-9bc1-09c9b35fca2a",
+      "Power"
+    ],
+    [
       "00000000-0000-0000-0000-000063cadd16",
-      "USB-C socket"
+      "USB and Power"
     ],
     [
       "d50824c3-4c53-48cc-bede-e10efbc54ff9",
@@ -1960,7 +1961,7 @@
     ],
     [
       "00000000-0000-0000-0000-000063cb76cf",
-      "Camera interface"
+      "Mezzanine Connectors"
     ],
     [
       "00000000-0000-0000-0000-000065aaf1bf",
@@ -1968,7 +1969,7 @@
     ],
     [
       "00000000-0000-0000-0000-0000622b7dc8",
-      "Xilinx K26 SOM"
+      "K26 SOM Connection"
     ],
     [
       "00000000-0000-0000-0000-000063c3fa95",

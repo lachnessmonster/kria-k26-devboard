@@ -789,624 +789,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Screw_Terminal_01x02_1"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Screw_Terminal_01x02_2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_2_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Screw_Terminal_01x02_3"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_3_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "kria-k26-devboard:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -1457,7 +839,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1470,7 +852,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1567,6 +949,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "C_100n_0402_0_1"
@@ -1685,7 +1078,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1698,7 +1091,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1797,6 +1190,17 @@
 					(justify left bottom)
 				)
 			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "C_1u_0402_0_1"
 				(polyline
 					(pts
@@ -1880,6 +1284,7 @@
 				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1892,7 +1297,6 @@
 				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1970,7 +1374,7 @@
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2047,7 +1451,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf"
+			(property "Datasheet" "https://mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf"
 				(at 21.59 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2060,7 +1464,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Transient voltage suppressor in DSN1608-2 for mobile applications"
+			(property "Description" "TVS diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2123,7 +1527,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "Transient voltage suppressor in DSN1608-2 for mobile applications"
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3509,6 +2913,15 @@
 		(uuid "031b90dd-bfd6-4517-93ab-f78cf7731485")
 	)
 	(bus_entry
+		(at 330.2 181.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b1fd05-fde4-4b14-8de6-a1f8cbcdabd3")
+	)
+	(bus_entry
 		(at 281.94 66.04)
 		(size 2.54 2.54)
 		(stroke
@@ -4383,8 +3796,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000649925b1")
-		(property "Reference" "J11"
-			(at 210.185 132.08 0)
+		(property "Reference" "J9"
+			(at 210.185 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4431,8 +3844,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount Right Angle, SSW"
 			(at 205.105 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4455,7 +3869,7 @@
 			)
 		)
 		(property "MPN" "SSW-106-02-G-D-RA"
-			(at 210.185 134.62 0)
+			(at 210.185 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4530,7 +3944,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4547,7 +3961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000649a6f75")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR0230"
 			(at 201.295 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4596,6 +4010,7 @@
 		)
 		(property "Description" ""
 			(at 201.295 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4636,7 +4051,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0266")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -4653,7 +4068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000649a7323")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR0233"
 			(at 219.075 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4702,6 +4117,7 @@
 		)
 		(property "Description" ""
 			(at 219.075 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +4158,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0269")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000649c2025")
-		(property "Reference" "C159"
+		(property "Reference" "C124"
 			(at 213.995 169.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4796,7 +4212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 198.12 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -4809,8 +4225,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 213.36 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4846,7 +4263,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 213.995 173.355 90)
+			(at 205.74 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4854,7 +4271,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -4916,7 +4333,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "C159")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -4933,7 +4350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000649c25c6")
-		(property "Reference" "C160"
+		(property "Reference" "C125"
 			(at 220.98 169.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 205.105 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -4983,8 +4400,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 220.345 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5020,7 +4438,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 220.98 173.355 90)
+			(at 212.725 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5028,7 +4446,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -5090,7 +4508,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "C160")
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -5107,7 +4525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000649c4adc")
-		(property "Reference" "C158"
+		(property "Reference" "C123"
 			(at 207.01 169.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,7 +4562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
 			(at 191.135 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -5157,8 +4575,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
 			(at 206.375 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5194,7 +4613,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 207.01 173.355 90)
+			(at 198.755 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5202,7 +4621,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -5264,7 +4683,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "C158")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -5282,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000649da63b")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR0234"
 			(at 220.345 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5294,13 +4713,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.345 179.07 0)
+			(at 222.25 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5331,6 +4751,7 @@
 		)
 		(property "Description" ""
 			(at 220.345 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5371,7 +4792,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0270")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -5388,7 +4809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000068dc2bfc")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0228"
 			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -5437,6 +4858,7 @@
 		)
 		(property "Description" ""
 			(at 168.91 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5477,7 +4899,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0264")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -5495,7 +4917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000068e4e367")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR0235"
 			(at 245.11 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -5544,6 +4966,7 @@
 		)
 		(property "Description" ""
 			(at 245.11 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5584,7 +5007,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0271")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -5602,15 +5025,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000069b7f430")
-		(property "Reference" "D18"
-			(at 196.215 168.5925 90)
+		(property "Reference" "D13"
+			(at 203.2 169.8624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "PTVS5V0Z1USKP"
@@ -5639,7 +5062,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf"
+		(property "Datasheet" "https://mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf"
 			(at 210.185 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5652,8 +5075,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode"
 			(at 200.025 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5676,7 +5100,8 @@
 			)
 		)
 		(property "MPN" "PTVS5V0Z1USKPYL"
-			(at 196.215 171.7674 90)
+			(at 215.265 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5684,7 +5109,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -5722,7 +5147,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "D18")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5739,7 +5164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13fbd7e6-eab8-4f8c-a78e-cf652c2a5863")
-		(property "Reference" "J7"
+		(property "Reference" "J11"
 			(at 316.23 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,8 +5186,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 313.69 75.184 0)
+		(property "Footprint" ""
+			(at 313.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +5228,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "J7")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5820,7 +5245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ae9571b-678d-4ad7-b405-02206d94f8fb")
-		(property "Reference" "U38"
+		(property "Reference" "U30"
 			(at 251.46 183.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,8 +5295,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD protection"
 			(at 247.65 187.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5965,7 +5391,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "U38")
+					(reference "U30")
 					(unit 1)
 				)
 			)
@@ -5983,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "294f1b3c-ab70-4d02-a9ee-3a978df2a18e")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR0231"
 			(at 206.375 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5995,13 +5421,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.375 179.07 0)
+			(at 208.28 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6032,6 +5459,7 @@
 		)
 		(property "Description" ""
 			(at 206.375 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6072,7 +5500,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0267")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -6090,7 +5518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "312ab3df-73be-40a2-94df-d37f480b8218")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0236"
 			(at 295.656 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6150,14 +5578,13 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR03")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Screw_Terminal_01x02_2")
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 313.69 99.06 0)
 		(unit 1)
@@ -6190,8 +5617,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 313.69 95.504 0)
+		(property "Footprint" ""
+			(at 313.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +5676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "683c7ae1-bc14-46e7-b9b3-9ce6bb1d9687")
-		(property "Reference" "U37"
+		(property "Reference" "U29"
 			(at 173.99 183.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,8 +5726,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD protection"
 			(at 170.18 187.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6394,7 +5822,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "U37")
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -6412,7 +5840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9d906e-441c-4818-ba93-e8f60471d98c")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR0229"
 			(at 200.025 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6424,13 +5852,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.025 179.07 0)
+			(at 201.93 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6461,6 +5890,7 @@
 		)
 		(property "Description" ""
 			(at 200.025 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6501,7 +5931,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0265")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -6541,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+		(property "Footprint" ""
 			(at 313.69 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6629,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
+		(property "Footprint" ""
 			(at 313.69 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6692,7 +6122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b5032e-5e53-499d-a113-9e495e39980e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0237"
 			(at 295.656 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6752,7 +6182,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR04")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -6770,7 +6200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dab316-abeb-4fbf-91ec-942450a1c7ab")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0238"
 			(at 295.656 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6830,14 +6260,13 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR05")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Screw_Terminal_01x02_1")
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 313.69 68.58 0)
 		(unit 1)
@@ -6848,7 +6277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ced1d569-12af-4379-9df7-d564d0072e37")
-		(property "Reference" "J3"
+		(property "Reference" "J10"
 			(at 316.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6870,8 +6299,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 313.69 65.024 0)
+		(property "Footprint" ""
+			(at 313.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,14 +6341,13 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "J3")
+					(reference "J10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Screw_Terminal_01x02_3")
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 313.69 88.9 0)
 		(unit 1)
@@ -6952,8 +6380,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 313.69 85.344 0)
+		(property "Footprint" ""
+			(at 313.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7012,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2321b3b-cc26-4285-99b1-2b643c1ab609")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR0232"
 			(at 213.36 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7024,13 +6452,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 179.07 0)
+			(at 215.9 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7061,6 +6490,7 @@
 		)
 		(property "Description" ""
 			(at 213.36 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7101,7 +6531,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR0268")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -7119,7 +6549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3de4d7-9c2c-4227-ab3a-e396d382b87f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0239"
 			(at 295.656 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7179,7 +6609,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063fe614f"
-					(reference "#PWR06")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
